@@ -24,7 +24,7 @@ function Portfolio() {
   ];
 
   return (
-    <section>
+    <section className="section">
       <h2>Portfolio</h2>
       {/* Rendering a list of projects using the Project component (dynamic rendering)*/}
       <div className="projects">
