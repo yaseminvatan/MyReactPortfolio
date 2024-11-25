@@ -1,0 +1,214 @@
+:root {
+    /* Color Variables */
+    --primary-color: #33393f; /* Outer Space */
+    --secondary-color: #5a6261; /* Bright Turquoise */
+    --text-light: #e5dbe9; /* Gin */
+    --accent-color: #bbbbbb; /* Heliotrope */
+  
+    /* Font Sizes */
+    --font-small: 1.4rem;
+    --font-medium: 1.6rem;
+    --font-large: 2rem;
+    --font-xlarge: 3rem;
+  
+    /* Layout */
+    --header-height: 6rem;
+    --footer-height: 4rem;
+  }
+  
+  /* Global Styles */
+  body {
+    font-size: var(--font-medium);
+    color: var(--text-light);
+    background-color: var(--primary-color);
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: var(--accent-color);
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: var(--text-light);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: var(--font-xlarge);
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: var(--font-small);
+    line-height: 1.8;
+  }
+  
+  /* Navigation */
+  .navigation {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  .navigation a {
+    margin: 0 1.5rem;
+    font-size: var(--font-medium);
+    color: var(--text-light);
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .navigation a:hover {
+    color: var(--accent-color);
+  }
+  
+  .navigation a.active {
+    font-weight: bold;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  footer a {
+    margin: 0 1rem;
+    font-size: var(--font-large);
+  }
+  
+  footer a:hover {
+    color: var(--accent-color);
+  }
+  
+  /* About Me Section */
+  section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: var(--font-large);
+    margin-bottom: 1rem;
+  }
+  
+  /* Portfolio Section */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    padding: 1rem;
+    font-size: var(--font-medium);
+    color: var(--text-light);
+    background-color: var(--primary-color);
+  }
+  
+  .project-card a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-light);
+    background-color: var(--primary-color);
+    transition: background-color 0.3s;
+  }
+  
+  .project-card a:hover {
+    background-color: var(--accent-color);
+  }
+  
+  /* Contact Section */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  form input, form textarea {
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-size: var(--font-medium);
+    background-color: var(--primary-color);
+    color: var(--text-light);
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+  
+  form button {
+    padding: 1rem;
+    font-size: var(--font-medium);
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Resume Section */
+  ul {
+    margin-top: 1rem;
+    text-align: left;
+    list-style: square inside;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navigation a {
+      margin: 0 0.5rem;
+    }
+  
+    .projects {
+      flex-direction: column;
+    }
+  }
+  
