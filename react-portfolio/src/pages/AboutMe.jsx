@@ -5,7 +5,7 @@ function AboutMe() {
     <section className='section'>
       <h2>About Me</h2>
       <p>
-        Hello! I’m <strong>Yasemin Vatan</strong>, a highly skilled and passionate professional with over <strong>9 years of experience</strong> as a <strong>GIS Specialist</strong> and database expert. My career journey has been shaped by my curiosity and dedication to solving complex problems through data and technology. As a <strong>full-stack developer</strong>, I have combined my technical expertise with creativity to design efficient, user-friendly solutions that make an impact.
+        Hello! I’m <strong>Yasemin Vatan</strong>,a highly skilled and passionate professional with over <strong>9 years of experience</strong> as a <strong>GIS Specialist</strong> and database expert. My career journey has been shaped by my curiosity and dedication to solving complex problems through data and technology. As a <strong>full-stack developer</strong>, I have combined my technical expertise with creativity to design efficient, user-friendly solutions that make an impact.
       </p>
       <p>
         <strong>Professional Expertise</strong>
