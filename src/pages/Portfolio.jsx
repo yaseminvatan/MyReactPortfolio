@@ -6,12 +6,12 @@ function Portfolio() {
   const projects = [
     {
       title: 'Digitex', 
-      image: 'project1.png', 
+      image: 'src/assets/project1.jpeg', 
       repoLink: 'https://github.com/UCBX-2024-Team-Wombat/P2-Digidex', 
     },
     {
       title: 'WordNerd',
-      image: 'project2.png', 
+      image: 'src/assets/project2.png', 
       repoLink: 'https://github.com/UCBX-2024-Team-Wombat/WordNerd', 
     },
     // Add 3rd project here, may be appLink for a live demo
