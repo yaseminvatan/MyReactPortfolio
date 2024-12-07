@@ -6,13 +6,13 @@ function Portfolio() {
   const projects = [
     {
       title: 'Digitex', 
-      image: 'src/assets/project1.jpeg', 
+      image: 'project1', 
       repoLink: 'https://github.com/UCBX-2024-Team-Wombat/P2-Digidex', 
       appLink: ''
     },
     {
       title: 'WordNerd',
-      image: 'src/assets/project2.png', 
+      image: 'project2', 
       repoLink: 'https://github.com/UCBX-2024-Team-Wombat/WordNerd', 
       appLink: 'https://p2-digidex-kfxk.onrender.com'
     },
