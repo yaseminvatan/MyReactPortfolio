@@ -31,7 +31,8 @@ function Portfolio() {
       {/* Rendering a list of projects using the Project component (dynamic rendering)*/}
       <div className="projects">
         {projects.map((project, index) => (
-          <Project key={index} {...project} />  //note for myself key prop ensures that each rendered project is uniquely identifiable, which is important for React's reconciliation process.
+          <Project key={index} {...project} />  //note for myself key prop ensures that each rendered project is uniquely identifiable, 
+          //which is important for React's reconciliation process.
           // Spreading project properties to pass them as props to the Project component
         ))}
       </div>
