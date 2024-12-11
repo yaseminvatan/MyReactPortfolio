@@ -24,7 +24,9 @@ function Portfolio() {
     //   repoLink: 'https://github.com/repo-link',
     // },
   ];
-
+  //Technical Languages: Javascript, HTML5, CSS3, C
+//Applications: MapInfo, Discover 3D, jQuery, Bootstrap, Firebase, Node.js, Express, Handlebars.js, ReactJS,
+//MySQL, MongoDB but they are already in cv so i decided not put them in my webpage ot doent looks like proffesional i mean repeating the same thing
   return (
     <section className="section">
       <h2>Portfolio</h2>
